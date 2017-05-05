@@ -14,9 +14,8 @@
 
 void	ft_for_lstdel(void *cont, size_t size)
 {
-	if (!cont)
+	if (!cont || !size)
 		return ;
 	free(cont);
 	cont = NULL;
-	size = 0;
 }

@@ -16,12 +16,10 @@
 char	*ft_strtrim(char const *s)
 {
 	size_t	i;
-	size_t	j;
 	size_t	k;
 	char	*t;
 
 	i = 0;
-	j = 0;
 	if (!s)
 		return (NULL);
 	if (!(k = ft_strlen(s)))
